@@ -1,0 +1,10 @@
+show rate: {'36000': '0.3428', '100000': '0.3512', '300000': '0.3500'}
+title family: {'36000': '0.3412', '100000': '0.3494', '300000': '0.3487'}
+channel rate x airtime: 0.2402
+show rate | mf 0.10 | channel 0.00            MAP@5 = 0.3581
+show rate | mf 0.10 | channel 0.01            MAP@5 = 0.3576
+show rate | mf 0.10 | channel 0.03            MAP@5 = 0.3573
+show rate | mf 0.05 | channel 0.01            MAP@5 = 0.3570
+show rate | mf 0.05 | channel 0.03            MAP@5 = 0.3567
+title family | mf 0.05 | channel 0.01         MAP@5 = 0.3565
+done in 44 s

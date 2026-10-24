@@ -1,0 +1,39 @@
+{
+ "rate": {
+  "36000": 0.3427910052910053,
+  "100000": 0.3511719576719577,
+  "300000": 0.3499761904761905
+ },
+ "title_family": {
+  "36000": 0.34118783068783065,
+  "100000": 0.3493915343915344,
+  "300000": 0.3486957671957672
+ },
+ "channel": 0.24020634920634917,
+ "combo": {
+  "show rate | mf 0.00 | channel 0.00": 0.3511719576719577,
+  "show rate | mf 0.00 | channel 0.01": 0.3511798941798942,
+  "show rate | mf 0.00 | channel 0.03": 0.34963756613756614,
+  "show rate | mf 0.05 | channel 0.00": 0.35534126984126985,
+  "show rate | mf 0.05 | channel 0.01": 0.3569867724867725,
+  "show rate | mf 0.05 | channel 0.03": 0.3567063492063492,
+  "show rate | mf 0.10 | channel 0.00": 0.3581137566137566,
+  "show rate | mf 0.10 | channel 0.01": 0.3576269841269841,
+  "show rate | mf 0.10 | channel 0.03": 0.35726984126984124,
+  "show rate | mf 0.20 | channel 0.00": 0.3512804232804233,
+  "show rate | mf 0.20 | channel 0.01": 0.35275396825396826,
+  "show rate | mf 0.20 | channel 0.03": 0.3524047619047619,
+  "title family | mf 0.00 | channel 0.00": 0.3493915343915344,
+  "title family | mf 0.00 | channel 0.01": 0.3497169312169312,
+  "title family | mf 0.00 | channel 0.03": 0.3489206349206349,
+  "title family | mf 0.05 | channel 0.00": 0.3543280423280423,
+  "title family | mf 0.05 | channel 0.01": 0.356505291005291,
+  "title family | mf 0.05 | channel 0.03": 0.35505026455026456,
+  "title family | mf 0.10 | channel 0.00": 0.35642857142857143,
+  "title family | mf 0.10 | channel 0.01": 0.35567724867724865,
+  "title family | mf 0.10 | channel 0.03": 0.35555555555555557,
+  "title family | mf 0.20 | channel 0.00": 0.35000529100529104,
+  "title family | mf 0.20 | channel 0.01": 0.35065608465608467,
+  "title family | mf 0.20 | channel 0.03": 0.3503968253968254
+ }
+}

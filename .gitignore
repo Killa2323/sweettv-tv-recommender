@@ -1,0 +1,13 @@
+# Publish only code, results and the Kaggle files. The competition data is not
+# redistributed (download it from Kaggle into data/), and the report folder and
+# the AI-session export are submitted through the course channel only.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/src/
+!/submissions/
+!/results/
+__pycache__/
+# internal rerun check, holds a table derived from the competition data
+/results/check/

@@ -1,0 +1,57 @@
+fold A (8 s):
+   users_with_truth                         1238
+   submitted (seconds rate + 0.1 MF)        0.2988
+   popularity n80                           0.2937
+   hist_n30                                 0.3775
+   hist_n50                                 0.3815
+   hist_n80                                 0.3659
+   crate_n30 s=1                            0.3746
+   crate_n30 s=3                            0.3830
+   crate_n30 s=10                           0.3896
+   crate_n30 s=30                           0.3936
+   crate_n30 s=100                          0.3957
+   crate_n50 s=1                            0.3768
+   crate_n50 s=3                            0.3828
+   crate_n50 s=10                           0.3878
+   crate_n50 s=30                           0.3932
+   crate_n50 s=100                          0.3941
+   crate_n80 s=1                            0.3619
+   crate_n80 s=3                            0.3677
+   crate_n80 s=10                           0.3744
+   crate_n80 s=30                           0.3780
+   crate_n80 s=100                          0.3782
+   mf counts k32                            0.3695
+fold B (59 s):
+   users_with_truth                         1232
+   submitted (seconds rate + 0.1 MF)        0.2632
+   popularity n80                           0.2510
+   hist_n30                                 0.3406
+   hist_n50                                 0.3463
+   hist_n80                                 0.3372
+   crate_n30 s=1                            0.3344
+   crate_n30 s=3                            0.3397
+   crate_n30 s=10                           0.3456
+   crate_n30 s=30                           0.3488
+   crate_n30 s=100                          0.3517
+   crate_n50 s=1                            0.3333
+   crate_n50 s=3                            0.3385
+   crate_n50 s=10                           0.3457
+   crate_n50 s=30                           0.3513
+   crate_n50 s=100                          0.3531
+   crate_n80 s=1                            0.3222
+   crate_n80 s=3                            0.3269
+   crate_n80 s=10                           0.3332
+   crate_n80 s=30                           0.3391
+   crate_n80 s=100                          0.3390
+   mf counts k32                            0.3359
+
+best blends (mean of folds):
+   crate_n50 s=30 | mf 0.05 | pop 0.05           A 0.4010  B 0.3547  mean 0.3779
+   crate_n30 s=100 | mf 0.05 | pop 0.05          A 0.4008  B 0.3548  mean 0.3778
+   crate_n30 s=100 | mf 0.10 | pop 0.05          A 0.4014  B 0.3541  mean 0.3778
+   crate_n30 s=30 | mf 0.10 | pop 0.05           A 0.4014  B 0.3536  mean 0.3775
+   crate_n30 s=100 | mf 0.05 | pop 0.03          A 0.3999  B 0.3550  mean 0.3775
+   crate_n30 s=100 | mf 0.05 | pop 0.01          A 0.3987  B 0.3561  mean 0.3774
+   crate_n30 s=30 | mf 0.05 | pop 0.03           A 0.4008  B 0.3538  mean 0.3773
+   crate_n30 s=30 | mf 0.05 | pop 0.05           A 0.4011  B 0.3534  mean 0.3773
+done in 106 s

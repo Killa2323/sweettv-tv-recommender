@@ -1,0 +1,69 @@
+{
+ "validation": {
+  "history": {
+   "map": 0.32067195767195766,
+   "hits": 2403,
+   "hits_seen": 2403,
+   "hits_new": 0,
+   "slots_new": 60,
+   "users_with_hit": 1057
+  },
+  "popularity": {
+   "map": 0.20666666666666664,
+   "hits": 1727,
+   "hits_seen": 1680,
+   "hits_new": 47,
+   "slots_new": 873,
+   "users_with_hit": 925
+  },
+  "cbf": {
+   "map": 0.006812169312169311,
+   "hits": 73,
+   "hits_seen": 65,
+   "hits_new": 8,
+   "slots_new": 5076,
+   "users_with_hit": 62
+  },
+  "mf": {
+   "map": 0.28607407407407404,
+   "hits": 2233,
+   "hits_seen": 2229,
+   "hits_new": 4,
+   "slots_new": 203,
+   "users_with_hit": 1066
+  },
+  "ppr": {
+   "map": 0.328973544973545,
+   "hits": 2449,
+   "hits_seen": 2448,
+   "hits_new": 1,
+   "slots_new": 60,
+   "users_with_hit": 1077
+  },
+  "rate": {
+   "map": 0.3511719576719577,
+   "hits": 2599,
+   "hits_seen": 2599,
+   "hits_new": 0,
+   "slots_new": 60,
+   "users_with_hit": 1093
+  },
+  "rate_mf": {
+   "map": 0.3581137566137566,
+   "hits": 2636,
+   "hits_seen": 2636,
+   "hits_new": 0,
+   "slots_new": 67,
+   "users_with_hit": 1101
+  }
+ },
+ "test_unseen_share": {
+  "history": 0.001746031746031746,
+  "popularity": 0.08047619047619048,
+  "cbf": 0.71,
+  "mf": 0.015714285714285715,
+  "ppr": 0.001746031746031746,
+  "rate": 0.001746031746031746,
+  "rate_mf": 0.0026984126984126986
+ }
+}

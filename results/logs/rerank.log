@@ -1,0 +1,12 @@
+E1 user split | binary     first layer 0.4010 -> rerank 0.4231 (gain +0.0220, 95% CI +0.0169..+0.0278; users better 424, worse 231; 238 trees) (8 s)
+E1 user split | lambdarank first layer 0.4010 -> rerank 0.4184 (gain +0.0173, 95% CI +0.0129..+0.0223; users better 376, worse 204; 114 trees) (14 s)
+E1 user split | discovery (correct familiar, correct new, slots new): {'first_layer': (2819, 19, 158), 'binary': (2954, 42, 288), 'lambdarank': (2917, 47, 347), 'both': (2949, 41, 293)}
+E1 user split | both       first layer 0.4010 -> rerank 0.4222 (gain +0.0212, 95% CI +0.0167..+0.0262)
+E2 time split | binary     first layer 0.3547 -> rerank 0.3686 (gain +0.0138, 95% CI +0.0089..+0.0193; users better 377, worse 250; 298 trees) (23 s)
+E2 time split | lambdarank first layer 0.3547 -> rerank 0.3670 (gain +0.0123, 95% CI +0.0080..+0.0166; users better 347, worse 218; 146 trees) (30 s)
+E2 time split | discovery (correct familiar, correct new, slots new): {'first_layer': (2526, 10, 113), 'binary': (2597, 27, 243), 'lambdarank': (2602, 30, 235), 'both': (2614, 29, 234)}
+E2 time split | both       first layer 0.3547 -> rerank 0.3698 (gain +0.0151, 95% CI +0.0109..+0.0194)
+picked both; wrote sub_rerank.csv (1260 rows); slots shared with sub_counts.csv: 0.826
+   binary top features by gain: exp_pred_wk 197124, final 176903, exp_rank 96253, exp_target_wk 43135, air_target_wk 17958, final_rank 17860, pop80_wk 17074, exp_recent_rank 13632, exp_target_recent_wk 13268, chan_share 9608
+   lambdarank top features by gain: final_rank 103158, final 55148, exp_rank 35378, exp_recent_rank 7777, pop80_wk 5691, air_target_wk 4376, user_hours_wk 3951, air_hist_wk 3509, airhours_target_wk 2685, share 2588
+done in 60 s

@@ -1,0 +1,2 @@
+A {'popularity': 0.2067, 'history': 0.3207, 'cbf': 0.0068, 'mf': 0.2861, 'ppr': 0.329, 'rate': 0.3512, 'rate_mf': 0.3581, 'ppr_convergence': (16, 8.609345190369343e-09, True), 'users_with_truth': 1247}
+B {'popularity': 0.1693, 'history': 0.2756, 'cbf': 0.0044, 'mf': 0.2358, 'ppr': 0.284, 'rate': 0.2911, 'rate_mf': 0.2986, 'ppr_convergence': (16, 8.609344506238762e-09, True), 'users_with_truth': 1244}

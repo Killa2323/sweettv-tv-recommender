@@ -1,0 +1,13 @@
+fold A done: {'history': 0.3207, 'ppr a0.3': 0.329, 'ppr_convergence': (16, 8.609345190369343e-09, True), 'mf k=16': 0.2747, 'mf k=32': 0.2861, 'mf k=64': 0.2801, 'rate 30000': 0.3408, 'rate 100000': 0.3512, 'rate 300000': 0.35}  (294 s)
+fold B done: {'history': 0.2756, 'ppr a0.3': 0.284, 'ppr_convergence': (16, 8.609344506238762e-09, True), 'mf k=16': 0.2228, 'mf k=32': 0.2358, 'mf k=64': 0.2392, 'rate 30000': 0.2822, 'rate 100000': 0.2911, 'rate 300000': 0.2929}  (642 s)
+smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.00 lam_pop=0.01    A 0.3570  B 0.2997  mean 0.3284
+smooth=100000 mf_k=32 lam_mf=0.10 lam_ppr=0.00 lam_pop=0.00    A 0.3581  B 0.2986  mean 0.3283
+smooth=100000 mf_k=32 lam_mf=0.10 lam_ppr=0.00 lam_pop=0.01    A 0.3582  B 0.2984  mean 0.3283
+smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.05 lam_pop=0.01    A 0.3566  B 0.2989  mean 0.3278
+smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.00 lam_pop=0.00    A 0.3569  B 0.2985  mean 0.3277
+smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.05 lam_pop=0.00    A 0.3568  B 0.2986  mean 0.3277
+smooth=100000 mf_k=32 lam_mf=0.05 lam_ppr=0.00 lam_pop=0.01    A 0.3567  B 0.2984  mean 0.3276
+smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.10 lam_pop=0.01    A 0.3555  B 0.2994  mean 0.3274
+smooth=100000 mf_k=32 lam_mf=0.10 lam_ppr=0.05 lam_pop=0.00    A 0.3561  B 0.2987  mean 0.3274
+smooth=100000 mf_k=32 lam_mf=0.10 lam_ppr=0.05 lam_pop=0.01    A 0.3566  B 0.2979  mean 0.3272
+best: smooth=100000 mf_k=64 lam_mf=0.10 lam_ppr=0.00 lam_pop=0.01 | done in 642 s

@@ -1,0 +1,12 @@
+true Top-5 items: 6235 {'seen by the user': '0.712', 'seen only by others': '0.170', 'new (no history views)': '0.118'}
+history                 MAP@5 = 0.3207
+rate b=0.5 smooth=3600   MAP@5 = 0.1352
+rate b=0.5 smooth=36000  MAP@5 = 0.2417
+rate b=1.0 smooth=3600   MAP@5 = 0.3145
+rate b=1.0 smooth=36000  MAP@5 = 0.3428
+ppr alpha 0.1: MAP@5 = 0.3225 (9 it, res 2.0e-09)  31 s
+ppr alpha 0.2: MAP@5 = 0.3253 (12 it, res 8.2e-09)  62 s
+rate + mf         best mf 0.10 MAP@5 = 0.3558
+rate + popularity best popularity 0.03 MAP@5 = 0.3481
+rate + ppr0.2     best ppr0.2 0.10 MAP@5 = 0.3450
+done in 75 s

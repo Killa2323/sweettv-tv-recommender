@@ -1,0 +1,8 @@
+history    MAP 0.3207 hits 2403 (seen 2403, new   0) | new slots   60 | users with a hit 1057
+popularity MAP 0.2067 hits 1727 (seen 1680, new  47) | new slots  873 | users with a hit 925
+cbf        MAP 0.0068 hits   73 (seen   65, new   8) | new slots 5076 | users with a hit 62
+mf         MAP 0.2861 hits 2233 (seen 2229, new   4) | new slots  203 | users with a hit 1066
+ppr        MAP 0.3290 hits 2449 (seen 2448, new   1) | new slots   60 | users with a hit 1077
+rate       MAP 0.3512 hits 2599 (seen 2599, new   0) | new slots   60 | users with a hit 1093
+rate_mf    MAP 0.3581 hits 2636 (seen 2636, new   0) | new slots   67 | users with a hit 1101
+test: share of slots with shows new to the user: {'history': 0.002, 'popularity': 0.08, 'cbf': 0.71, 'mf': 0.016, 'ppr': 0.002, 'rate': 0.002, 'rate_mf': 0.003}

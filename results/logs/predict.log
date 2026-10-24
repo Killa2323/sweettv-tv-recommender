@@ -1,0 +1,7 @@
+test matrix 4897 x 7890, nnz 1371685; shows on air in weeks 31-42: 6642
+ppr alpha 0.30: 16 iterations, residual 8.6e-09, converged True
+users with fewer than 5 watched on-air shows: 3
+wrote sub_history.csv 1260 rows
+wrote sub_rate.csv 1260 rows
+wrote sub_rate_mf.csv 1260 rows
+done in 109 s

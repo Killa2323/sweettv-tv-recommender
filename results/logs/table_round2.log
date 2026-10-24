@@ -1,0 +1,4 @@
+fold A: {'popularity': 0.2937, 'cbf': 0.1696, 'mf': 0.3695, 'ppr': 0.383, 'history': 0.3815, 'schedule': 0.3932, 'final': 0.401, 'first submission': 0.2988} (18 s)
+fold B: {'popularity': 0.251, 'cbf': 0.1208, 'mf': 0.3359, 'ppr': 0.3461, 'history': 0.3463, 'schedule': 0.3513, 'final': 0.3547, 'first submission': 0.2632} (39 s)
+discovery fold A: {'popularity': {'hits_seen': 2205, 'hits_new': 90, 'slots_new': 1237}, 'cbf': {'hits_seen': 1393, 'hits_new': 17, 'slots_new': 2174}, 'mf': {'hits_seen': 2657, 'hits_new': 7, 'slots_new': 304}, 'ppr': {'hits_seen': 2734, 'hits_new': 6, 'slots_new': 132}, 'history': {'hits_seen': 2723, 'hits_new': 15, 'slots_new': 129}, 'schedule': {'hits_seen': 2770, 'hits_new': 15, 'slots_new': 129}, 'final': {'hits_seen': 2819, 'hits_new': 19, 'slots_new': 158}, 'first submission': {'hits_seen': 2326, 'hits_new': 1, 'slots_new': 67}}
+final test lists equal sub_counts.csv: yes | done in 68 s

@@ -1,0 +1,19 @@
+schedule rows 3444007 channels 405 range 2020-03-08 23:00:00 2020-10-19 12:00:00
+  export_arh_11-20-final.csv   rows  1074235  2020-03-08 23:00:00 .. 2020-05-18 11:45:00  shows(non-zero) 5847
+  export_arh_21-30-final.csv   rows  1074394  2020-05-18 00:00:00 .. 2020-07-27 11:55:00  shows(non-zero) 6363
+  export_arh_31-42-final.csv   rows  1295378  2020-07-27 00:00:00 .. 2020-10-19 11:55:00  shows(non-zero) 6636
+  share of rows with tv_show_id 0: 0.889
+  rows overlapping the next show on the same channel: 13 | duplicate (channel,start) rows: 1
+shows (non-zero ids): 9671 | airing in weeks 31-42: 6646 | only in weeks 31-42: 1438
+
+views 5821987 users 4914 channels 202 range 2020-03-09 00:00:02 2020-07-26 23:59:58
+  duraton column equals stop-start: 1.0000 of rows; median 396 s, mean 1480 s, max 342145 s
+  views with stop < start: 0 | channels missing from schedule: [149, 1174, 1508, 1509, 1510]
+submission users 1260 unique 1260 | with views in weeks 11-30: 1260
+
+shows touched per view: mean 1.40, max 209, views touching none 381
+viewing seconds: total 8.619e+09, matched to a schedule slot 94.1%, of which tv_show_id 0 43.6%
+airings seen in one view: over 30% 1238258, over 50% 884522, over 80% 570251
+interactions (user, show, week): 2148917 | users 4895 | shows 4363 | weeks 11 - 30
+distinct shows per user: median 249, 10% 73, 90% 525
+done in 32 s

@@ -1,0 +1,20 @@
+matrix 4839 users x 7556 shows, 698332 non-zero; candidates on air 7045
+history                MAP@5 = 0.3207   (5 s)
+popularity             MAP@5 = 0.2067   (6 s)
+cbf                    MAP@5 = 0.0068   (7 s)
+mf k=16                MAP@5 = 0.2747   (9 s)
+mf k=32                MAP@5 = 0.2861   (10 s)
+mf k=64                MAP@5 = 0.2801   (13 s)
+   ppr alpha 0.30: 16 iterations, residual 8.6e-09, converged True
+ppr alpha=0.30         MAP@5 = 0.3290   (63 s)
+   ppr alpha 0.50: 28 iterations, residual 7.5e-09, converged True
+ppr alpha=0.50         MAP@5 = 0.3195   (152 s)
+   ppr alpha 0.70: 54 iterations, residual 8.6e-09, converged True
+ppr alpha=0.70         MAP@5 = 0.2796   (320 s)
+   ppr alpha 0.85: 118 iterations, residual 9.4e-09, converged True
+ppr alpha=0.85         MAP@5 = 0.2357   (665 s)
+history + popularity best lambda 0.03  MAP@5 = 0.3304   0.0:0.3207 0.01:0.3254 0.03:0.3304 0.1:0.3116 0.3:0.2647 1.0:0.2236
+history + cbf        best lambda 0.0   MAP@5 = 0.3207   0.0:0.3207 0.01:0.3154 0.03:0.2992 0.1:0.1892 0.3:0.0559 1.0:0.0147
+history + mf         best lambda 0.1   MAP@5 = 0.3327   0.0:0.3207 0.01:0.3252 0.03:0.3297 0.1:0.3327 0.3:0.3233 1.0:0.3037
+history + ppr        best lambda 1.0   MAP@5 = 0.3280   0.0:0.3207 0.01:0.3212 0.03:0.3226 0.1:0.3240 0.3:0.3257 1.0:0.3280
+done in 689 s

@@ -1,0 +1,7 @@
+submission users with a future Top-5: 1247 of 1260; median true list length 5
+shows on air in weeks 19-30: 7045; true Top-5 items on air: 1.000; true items seen in history: 0.703
+popularity                   MAP@5 = 0.2067
+history (seconds)            MAP@5 = 0.3210
+history, half-life 1 wk      MAP@5 = 0.2575
+history, half-life 2 wk      MAP@5 = 0.3014
+history, half-life 4 wk      MAP@5 = 0.3191
