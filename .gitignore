@@ -3,6 +3,7 @@
 # the AI-session export are submitted through the course channel only.
 /*
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/requirements.txt
 !/src/

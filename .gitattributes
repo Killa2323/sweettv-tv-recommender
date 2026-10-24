@@ -1,0 +1,2 @@
+# Keep the Kaggle files byte-identical to what was uploaded (Windows line endings).
+submissions/*.csv -text
